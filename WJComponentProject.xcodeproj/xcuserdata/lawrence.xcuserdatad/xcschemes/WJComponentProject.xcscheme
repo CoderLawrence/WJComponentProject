@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "218F14B81F35833200A7D602"
+               BlueprintIdentifier = "211DBBEB1F38AD1000BF59A1"
                BuildableName = "WJComponentProject.app"
                BlueprintName = "WJComponentProject"
                ReferencedContainer = "container:WJComponentProject.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "218F14D11F35833200A7D602"
+               BlueprintIdentifier = "211DBC031F38AD1000BF59A1"
                BuildableName = "WJComponentProjectTests.xctest"
                BlueprintName = "WJComponentProjectTests"
                ReferencedContainer = "container:WJComponentProject.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "218F14DC1F35833200A7D602"
+               BlueprintIdentifier = "211DBC0E1F38AD1000BF59A1"
                BuildableName = "WJComponentProjectUITests.xctest"
                BlueprintName = "WJComponentProjectUITests"
                ReferencedContainer = "container:WJComponentProject.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "218F14B81F35833200A7D602"
+            BlueprintIdentifier = "211DBBEB1F38AD1000BF59A1"
             BuildableName = "WJComponentProject.app"
             BlueprintName = "WJComponentProject"
             ReferencedContainer = "container:WJComponentProject.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "218F14B81F35833200A7D602"
+            BlueprintIdentifier = "211DBBEB1F38AD1000BF59A1"
             BuildableName = "WJComponentProject.app"
             BlueprintName = "WJComponentProject"
             ReferencedContainer = "container:WJComponentProject.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "218F14B81F35833200A7D602"
+            BlueprintIdentifier = "211DBBEB1F38AD1000BF59A1"
             BuildableName = "WJComponentProject.app"
             BlueprintName = "WJComponentProject"
             ReferencedContainer = "container:WJComponentProject.xcodeproj">

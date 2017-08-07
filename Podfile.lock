@@ -1,4 +1,5 @@
 PODS:
+  - CTMediator (12)
   - FDFullscreenPopGesture (1.1)
   - SVProgressHUD (2.1.2)
   - WJBaseComponent (0.3.0):
@@ -13,15 +14,30 @@ PODS:
     - WJBaseComponent/Macros
   - WJBaseComponent/Category (0.3.0)
   - WJBaseComponent/Macros (0.3.0)
+  - WJHomeModule (0.2.0):
+    - WJHomeModule/Business (= 0.2.0)
+    - WJHomeModule/Target (= 0.2.0)
+  - WJHomeModule/Business (0.2.0):
+    - WJBaseComponent
+  - WJHomeModule/Target (0.2.0):
+    - CTMediator
+    - WJHomeModule/Business
+  - WJStandard_Category (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - WJBaseComponent
+  - WJHomeModule
+  - WJStandard_Category
 
 SPEC CHECKSUMS:
+  CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   WJBaseComponent: 95184ca4a86fc24d3e9428b1b5d4006631137950
+  WJHomeModule: 584691b5afce8e146c923ec8ca58f684cf0d87e3
+  WJStandard_Category: d818ac54f9ea8a818ceb4c017bd67d72d4f3d5cc
 
-PODFILE CHECKSUM: e39843abbbba58f092c9bfee5063ae488f976dc1
+PODFILE CHECKSUM: 6dd87cbb3a2ff5e34b890aed3e31fdc394173b96
 
 COCOAPODS: 1.2.0.beta.3

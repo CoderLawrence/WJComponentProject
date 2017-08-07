@@ -4,6 +4,10 @@ source 'https://github.com/CoderLawrence/WJSpecs.git'
 platform:ios, '8.0'
 use_frameworks!
 
+
+
 target 'WJComponentProject' do
-  pod 'WJBaseComponent' 
+  pod 'WJBaseComponent'
+  pod 'WJStandard_Category'
+  pod 'WJHomeModule'
 end
