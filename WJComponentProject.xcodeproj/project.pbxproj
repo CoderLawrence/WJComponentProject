@@ -7,56 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211DBBF01F38AD1000BF59A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBBEF1F38AD1000BF59A1 /* main.m */; };
-		211DBBF31F38AD1000BF59A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBBF21F38AD1000BF59A1 /* AppDelegate.m */; };
-		211DBBF61F38AD1000BF59A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBBF51F38AD1000BF59A1 /* ViewController.m */; };
-		211DBBF91F38AD1000BF59A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211DBBF71F38AD1000BF59A1 /* Main.storyboard */; };
-		211DBBFB1F38AD1000BF59A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211DBBFA1F38AD1000BF59A1 /* Assets.xcassets */; };
-		211DBBFE1F38AD1000BF59A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211DBBFC1F38AD1000BF59A1 /* LaunchScreen.storyboard */; };
-		211DBC091F38AD1000BF59A1 /* WJComponentProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBC081F38AD1000BF59A1 /* WJComponentProjectTests.m */; };
-		211DBC141F38AD1000BF59A1 /* WJComponentProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBC131F38AD1000BF59A1 /* WJComponentProjectUITests.m */; };
 		218F14D71F35833200A7D602 /* WJComponentProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218F14D61F35833200A7D602 /* WJComponentProjectTests.m */; };
 		218F14E21F35833200A7D602 /* WJComponentProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218F14E11F35833200A7D602 /* WJComponentProjectUITests.m */; };
+		21CA136E1F48A9FB0061BAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218F14C51F35833200A7D602 /* Main.storyboard */; };
 		CACEB03C068423F255618D9E /* Pods_WJComponentProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18EE2C5DB9B05007D62D3CA /* Pods_WJComponentProject.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		211DBC051F38AD1000BF59A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 218F14B11F35833200A7D602 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 211DBBEB1F38AD1000BF59A1;
-			remoteInfo = WJComponentProject;
-		};
-		211DBC101F38AD1000BF59A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 218F14B11F35833200A7D602 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 211DBBEB1F38AD1000BF59A1;
-			remoteInfo = WJComponentProject;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D69F4A896274E40CDB4AB18 /* Pods_Standard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Standard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD89ED465051956E9537B1E /* Pods-WJComponentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJComponentProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject.release.xcconfig"; sourceTree = "<group>"; };
 		18417A0EC54D986275FB07D3 /* Pods-Standard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Standard/Pods-Standard.release.xcconfig"; sourceTree = "<group>"; };
 		211DBBEC1F38AD1000BF59A1 /* WJComponentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJComponentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		211DBBEF1F38AD1000BF59A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		211DBBF11F38AD1000BF59A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		211DBBF21F38AD1000BF59A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		211DBBF41F38AD1000BF59A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		211DBBF51F38AD1000BF59A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		211DBBF81F38AD1000BF59A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		211DBBFA1F38AD1000BF59A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		211DBBFD1F38AD1000BF59A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		211DBBFF1F38AD1000BF59A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		211DBC041F38AD1000BF59A1 /* WJComponentProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJComponentProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		211DBC081F38AD1000BF59A1 /* WJComponentProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJComponentProjectTests.m; sourceTree = "<group>"; };
-		211DBC0A1F38AD1000BF59A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		211DBC0F1F38AD1000BF59A1 /* WJComponentProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJComponentProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		211DBC131F38AD1000BF59A1 /* WJComponentProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJComponentProjectUITests.m; sourceTree = "<group>"; };
-		211DBC151F38AD1000BF59A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218F14BD1F35833200A7D602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		218F14BF1F35833200A7D602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		218F14C01F35833200A7D602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,20 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		211DBC011F38AD1000BF59A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211DBC0C1F38AD1000BF59A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		218F14CF1F35833200A7D602 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,57 +64,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		211DBBED1F38AD1000BF59A1 /* WJComponentProject */ = {
-			isa = PBXGroup;
-			children = (
-				211DBBF11F38AD1000BF59A1 /* AppDelegate.h */,
-				211DBBF21F38AD1000BF59A1 /* AppDelegate.m */,
-				211DBBF41F38AD1000BF59A1 /* ViewController.h */,
-				211DBBF51F38AD1000BF59A1 /* ViewController.m */,
-				211DBBF71F38AD1000BF59A1 /* Main.storyboard */,
-				211DBBFA1F38AD1000BF59A1 /* Assets.xcassets */,
-				211DBBFC1F38AD1000BF59A1 /* LaunchScreen.storyboard */,
-				211DBBFF1F38AD1000BF59A1 /* Info.plist */,
-				211DBBEE1F38AD1000BF59A1 /* Supporting Files */,
-			);
-			path = WJComponentProject;
-			sourceTree = "<group>";
-		};
-		211DBBEE1F38AD1000BF59A1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				211DBBEF1F38AD1000BF59A1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		211DBC071F38AD1000BF59A1 /* WJComponentProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				211DBC081F38AD1000BF59A1 /* WJComponentProjectTests.m */,
-				211DBC0A1F38AD1000BF59A1 /* Info.plist */,
-			);
-			path = WJComponentProjectTests;
-			sourceTree = "<group>";
-		};
-		211DBC121F38AD1000BF59A1 /* WJComponentProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				211DBC131F38AD1000BF59A1 /* WJComponentProjectUITests.m */,
-				211DBC151F38AD1000BF59A1 /* Info.plist */,
-			);
-			path = WJComponentProjectUITests;
-			sourceTree = "<group>";
-		};
 		218F14B01F35833200A7D602 = {
 			isa = PBXGroup;
 			children = (
 				218F14BB1F35833200A7D602 /* WJComponentProject */,
 				218F14D51F35833200A7D602 /* WJComponentProjectTests */,
 				218F14E01F35833200A7D602 /* WJComponentProjectUITests */,
-				211DBBED1F38AD1000BF59A1 /* WJComponentProject */,
-				211DBC071F38AD1000BF59A1 /* WJComponentProjectTests */,
-				211DBC121F38AD1000BF59A1 /* WJComponentProjectUITests */,
 				218F14BA1F35833200A7D602 /* Products */,
 				367B8674D8DDCF93E7EFD214 /* Pods */,
 				2B142DD0A6B45E1757AC8141 /* Frameworks */,
@@ -180,8 +82,6 @@
 				218F14D21F35833200A7D602 /* WJComponentProjectTests.xctest */,
 				218F14DD1F35833200A7D602 /* WJComponentProjectUITests.xctest */,
 				211DBBEC1F38AD1000BF59A1 /* WJComponentProject.app */,
-				211DBC041F38AD1000BF59A1 /* WJComponentProjectTests.xctest */,
-				211DBC0F1F38AD1000BF59A1 /* WJComponentProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,42 +171,6 @@
 			productReference = 211DBBEC1F38AD1000BF59A1 /* WJComponentProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		211DBC031F38AD1000BF59A1 /* WJComponentProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 211DBC1D1F38AD1000BF59A1 /* Build configuration list for PBXNativeTarget "WJComponentProjectTests" */;
-			buildPhases = (
-				211DBC001F38AD1000BF59A1 /* Sources */,
-				211DBC011F38AD1000BF59A1 /* Frameworks */,
-				211DBC021F38AD1000BF59A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				211DBC061F38AD1000BF59A1 /* PBXTargetDependency */,
-			);
-			name = WJComponentProjectTests;
-			productName = WJComponentProjectTests;
-			productReference = 211DBC041F38AD1000BF59A1 /* WJComponentProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		211DBC0E1F38AD1000BF59A1 /* WJComponentProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 211DBC1E1F38AD1000BF59A1 /* Build configuration list for PBXNativeTarget "WJComponentProjectUITests" */;
-			buildPhases = (
-				211DBC0B1F38AD1000BF59A1 /* Sources */,
-				211DBC0C1F38AD1000BF59A1 /* Frameworks */,
-				211DBC0D1F38AD1000BF59A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				211DBC111F38AD1000BF59A1 /* PBXTargetDependency */,
-			);
-			name = WJComponentProjectUITests;
-			productName = WJComponentProjectUITests;
-			productReference = 211DBC0F1F38AD1000BF59A1 /* WJComponentProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		218F14D11F35833200A7D602 /* WJComponentProjectTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 218F14E91F35833200A7D602 /* Build configuration list for PBXNativeTarget "WJComponentProjectTests" */;
@@ -355,18 +219,6 @@
 						DevelopmentTeam = 95DN6Z98SA;
 						ProvisioningStyle = Automatic;
 					};
-					211DBC031F38AD1000BF59A1 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 95DN6Z98SA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 211DBBEB1F38AD1000BF59A1;
-					};
-					211DBC0E1F38AD1000BF59A1 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 95DN6Z98SA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 211DBBEB1F38AD1000BF59A1;
-					};
 					218F14D11F35833200A7D602 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 95DN6Z98SA;
@@ -397,8 +249,6 @@
 				211DBBEB1F38AD1000BF59A1 /* WJComponentProject */,
 				218F14D11F35833200A7D602 /* WJComponentProjectTests */,
 				218F14DC1F35833200A7D602 /* WJComponentProjectUITests */,
-				211DBC031F38AD1000BF59A1 /* WJComponentProjectTests */,
-				211DBC0E1F38AD1000BF59A1 /* WJComponentProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -408,23 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211DBBFE1F38AD1000BF59A1 /* LaunchScreen.storyboard in Resources */,
-				211DBBFB1F38AD1000BF59A1 /* Assets.xcassets in Resources */,
-				211DBBF91F38AD1000BF59A1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211DBC021F38AD1000BF59A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211DBC0D1F38AD1000BF59A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				21CA136E1F48A9FB0061BAF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,25 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211DBBF61F38AD1000BF59A1 /* ViewController.m in Sources */,
-				211DBBF31F38AD1000BF59A1 /* AppDelegate.m in Sources */,
-				211DBBF01F38AD1000BF59A1 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211DBC001F38AD1000BF59A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				211DBC091F38AD1000BF59A1 /* WJComponentProjectTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211DBC0B1F38AD1000BF59A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				211DBC141F38AD1000BF59A1 /* WJComponentProjectUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,36 +352,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		211DBC061F38AD1000BF59A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 211DBBEB1F38AD1000BF59A1 /* WJComponentProject */;
-			targetProxy = 211DBC051F38AD1000BF59A1 /* PBXContainerItemProxy */;
-		};
-		211DBC111F38AD1000BF59A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 211DBBEB1F38AD1000BF59A1 /* WJComponentProject */;
-			targetProxy = 211DBC101F38AD1000BF59A1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		211DBBF71F38AD1000BF59A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				211DBBF81F38AD1000BF59A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		211DBBFC1F38AD1000BF59A1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				211DBBFD1F38AD1000BF59A1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		218F14C51F35833200A7D602 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -609,56 +395,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zqs.WJComponentProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		211DBC181F38AD1000BF59A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 95DN6Z98SA;
-				INFOPLIST_FILE = WJComponentProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zqs.WJComponentProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJComponentProject.app/WJComponentProject";
-			};
-			name = Debug;
-		};
-		211DBC191F38AD1000BF59A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 95DN6Z98SA;
-				INFOPLIST_FILE = WJComponentProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zqs.WJComponentProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJComponentProject.app/WJComponentProject";
-			};
-			name = Release;
-		};
-		211DBC1A1F38AD1000BF59A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 95DN6Z98SA;
-				INFOPLIST_FILE = WJComponentProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zqs.WJComponentProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WJComponentProject;
-			};
-			name = Debug;
-		};
-		211DBC1B1F38AD1000BF59A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 95DN6Z98SA;
-				INFOPLIST_FILE = WJComponentProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zqs.WJComponentProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WJComponentProject;
 			};
 			name = Release;
 		};
@@ -810,24 +546,6 @@
 			buildConfigurations = (
 				211DBC161F38AD1000BF59A1 /* Debug */,
 				211DBC171F38AD1000BF59A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		211DBC1D1F38AD1000BF59A1 /* Build configuration list for PBXNativeTarget "WJComponentProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				211DBC181F38AD1000BF59A1 /* Debug */,
-				211DBC191F38AD1000BF59A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		211DBC1E1F38AD1000BF59A1 /* Build configuration list for PBXNativeTarget "WJComponentProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				211DBC1A1F38AD1000BF59A1 /* Debug */,
-				211DBC1B1F38AD1000BF59A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
