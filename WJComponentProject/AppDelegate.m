@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <WJBaseComponent/WJBaseComponent.h>
+#import <WJStandard_Category/CTMediator+Standard.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UIViewController *vc = [[CTMediator sharedInstance] standard_homeViewController];
+    WJNavigationViewController *nav = [[WJNavigationViewController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

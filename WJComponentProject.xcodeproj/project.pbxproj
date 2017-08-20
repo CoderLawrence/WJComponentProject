@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		2113B6351F493806001972B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B6341F493806001972B8 /* main.m */; };
 		2113B6381F493806001972B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B6371F493806001972B8 /* AppDelegate.m */; };
-		2113B63B1F493806001972B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B63A1F493806001972B8 /* ViewController.m */; };
-		2113B63E1F493806001972B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2113B63C1F493806001972B8 /* Main.storyboard */; };
 		2113B6401F493806001972B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2113B63F1F493806001972B8 /* Assets.xcassets */; };
 		2113B6431F493806001972B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2113B6411F493806001972B8 /* LaunchScreen.storyboard */; };
 		2113B64E1F493807001972B8 /* WJComponentProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B64D1F493807001972B8 /* WJComponentProjectTests.m */; };
 		2113B6591F493807001972B8 /* WJComponentProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B6581F493807001972B8 /* WJComponentProjectUITests.m */; };
+		94FF68F4F4A2AEA950AB2F22 /* Pods_WJComponentProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6C13A06AFA0143DCC18F6F /* Pods_WJComponentProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,6 @@
 		2113B6341F493806001972B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2113B6361F493806001972B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2113B6371F493806001972B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2113B6391F493806001972B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2113B63A1F493806001972B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2113B63D1F493806001972B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2113B63F1F493806001972B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2113B6421F493806001972B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2113B6441F493806001972B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,9 @@
 		2113B6541F493807001972B8 /* WJComponentProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJComponentProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2113B6581F493807001972B8 /* WJComponentProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJComponentProjectUITests.m; sourceTree = "<group>"; };
 		2113B65A1F493807001972B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC055531A17B8A40C7CECBD /* Pods-WJComponentProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJComponentProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6581BAAB18F1E3E9B2845F36 /* Pods-WJComponentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJComponentProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject.release.xcconfig"; sourceTree = "<group>"; };
+		7B6C13A06AFA0143DCC18F6F /* Pods_WJComponentProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJComponentProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FF68F4F4A2AEA950AB2F22 /* Pods_WJComponentProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +85,8 @@
 				2113B64C1F493807001972B8 /* WJComponentProjectTests */,
 				2113B6571F493807001972B8 /* WJComponentProjectUITests */,
 				2113B6311F493806001972B8 /* Products */,
+				3C5511065A5A8371419FA62A /* Pods */,
+				6BAE90FB82B9B1E0BB8F7F4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +105,6 @@
 			children = (
 				2113B6361F493806001972B8 /* AppDelegate.h */,
 				2113B6371F493806001972B8 /* AppDelegate.m */,
-				2113B6391F493806001972B8 /* ViewController.h */,
-				2113B63A1F493806001972B8 /* ViewController.m */,
-				2113B63C1F493806001972B8 /* Main.storyboard */,
 				2113B63F1F493806001972B8 /* Assets.xcassets */,
 				2113B6411F493806001972B8 /* LaunchScreen.storyboard */,
 				2113B6441F493806001972B8 /* Info.plist */,
@@ -140,6 +139,23 @@
 			path = WJComponentProjectUITests;
 			sourceTree = "<group>";
 		};
+		3C5511065A5A8371419FA62A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC055531A17B8A40C7CECBD /* Pods-WJComponentProject.debug.xcconfig */,
+				6581BAAB18F1E3E9B2845F36 /* Pods-WJComponentProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BAE90FB82B9B1E0BB8F7F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C13A06AFA0143DCC18F6F /* Pods_WJComponentProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2113B65D1F493807001972B8 /* Build configuration list for PBXNativeTarget "WJComponentProject" */;
 			buildPhases = (
+				567BA71CB0F6B42AD9D045CD /* [CP] Check Pods Manifest.lock */,
 				2113B62C1F493806001972B8 /* Sources */,
 				2113B62D1F493806001972B8 /* Frameworks */,
 				2113B62E1F493806001972B8 /* Resources */,
+				4ADEE2A7CC2E0A47810F4FE8 /* [CP] Embed Pods Frameworks */,
+				A0B559E926D3EEFFF1651318 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +270,6 @@
 			files = (
 				2113B6431F493806001972B8 /* LaunchScreen.storyboard in Resources */,
 				2113B6401F493806001972B8 /* Assets.xcassets in Resources */,
-				2113B63E1F493806001972B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +289,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ADEE2A7CC2E0A47810F4FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567BA71CB0F6B42AD9D045CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B559E926D3EEFFF1651318 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2113B62C1F493806001972B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2113B63B1F493806001972B8 /* ViewController.m in Sources */,
 				2113B6381F493806001972B8 /* AppDelegate.m in Sources */,
 				2113B6351F493806001972B8 /* main.m in Sources */,
 			);
@@ -314,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2113B63C1F493806001972B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2113B63D1F493806001972B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2113B6411F493806001972B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +482,7 @@
 		};
 		2113B65E1F493807001972B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC055531A17B8A40C7CECBD /* Pods-WJComponentProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95DN6Z98SA;
@@ -437,6 +495,7 @@
 		};
 		2113B65F1F493807001972B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6581BAAB18F1E3E9B2845F36 /* Pods-WJComponentProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 95DN6Z98SA;
@@ -516,6 +575,7 @@
 				2113B65F1F493807001972B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2113B6601F493807001972B8 /* Build configuration list for PBXNativeTarget "WJComponentProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +584,7 @@
 				2113B6621F493807001972B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2113B6631F493807001972B8 /* Build configuration list for PBXNativeTarget "WJComponentProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +593,7 @@
 				2113B6651F493807001972B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
