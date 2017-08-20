@@ -1,0 +1,6 @@
+framework module WJStandard_Category {
+  umbrella header "WJStandard_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}

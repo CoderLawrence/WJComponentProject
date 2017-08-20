@@ -1,0 +1,1857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DD04B69D01583F9D23790722B82E1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		06F332DA8069949357458ABC0FAA1595 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2AC485897201F7951747C4CE33CB5C /* UIImage+Extensions.m */; };
+		1413C7170CFE8A59DE298B564E65A2FE /* CTMediator+Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E1C06224EAD81E69B46FCCDC95215D /* CTMediator+Standard.m */; };
+		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = D600674C3069B8C52E2A181C2B1129A7 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20AC6169DE783E75F308BD004DB3168C /* WJNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2601F4EC71CA6C90B6C379099C7B19BA /* WJNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7F4535470CCECC6FA05F462ACAA0E4 /* CTMediator-dummy.m */; };
+		220D3449359584062A9274434DBF21D1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C85904DE71F862E109086FE5802004E /* SVIndefiniteAnimatedView.m */; };
+		2368E96188C0B4EEB9B92B00CD2F4F23 /* Pods-WJComponentProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DC3218619436B1AFDFD418D4821C79 /* Pods-WJComponentProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25891108DC217EA79A8FB052517AAFA6 /* WJUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD69CC98D9384027A61D70084348E2A /* WJUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F9B8C69534C6BAE73CB5B625A86258 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69A034548995F8C4378705A925FBD12F /* SVProgressHUD.bundle */; };
+		33E40E9BA5A587A83ECF01F8539ADE9D /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B54DCAE3962F2F6D86340F8A3184BF5 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353D3EA5BB4FD03CBE89FAF2C149C92D /* checkUserType_backward_9x15_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 218AC9CCF46DC16F87DFE7220FD44756 /* checkUserType_backward_9x15_@3x.png */; };
+		35E8A1BA12AF2A0B7F828A09CAFD9BC1 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */; };
+		392AB27B1DF18F52FC6118BC94577BB5 /* UIViewController+RunDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = FA44435386EF201620DA6493B479C3F6 /* UIViewController+RunDealloc.m */; };
+		3B84D8D69F9AC638422DAD2235AB569C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D65804886D90CC4ECD5E93D3D95C77 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6C71F0A33715A49B108C93E4BAC193 /* WJTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35039FB0878400FD6C737C5B88EF5369 /* WJTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400B83C7494B6F7EBF5BE9F98FC7F63A /* WJStandard_Category-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC00FE23C2A386FDDE025B94DC3D98D /* WJStandard_Category-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C22FEED74BBAC5EAE6731BA9BDDCAD /* WJBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D78AD1381DEA7111F0F213CC4E6E31 /* WJBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91835D938159ABE4E42DA839198EE897 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BE41D38AADF38CB2B7EAB07ED93CB3 /* UIViewController+RunDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 945BA2D56329B0292BEC2448B7E85696 /* UIViewController+RunDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4942B4EA77FAE6B7C22A06B9392B9602 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130DA762C9F743A22C24F5C153DC538 /* SVProgressHUD-dummy.m */; };
+		4CBDE7A1EC421E4703EAE8B533BA1300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		4E7337807C3197F2AEC580AA804FF221 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C86B37B6E8CFB370246B479F78EF746 /* NSTimer+Addition.m */; };
+		54E12210AD471BE315545D0C96EA3840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
+		564D17B51CA2FA045B5FF35C1F35E4E1 /* NotificatonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 35098F501C9D1035ADDC9C521142AA11 /* NotificatonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E38AC7D8B8687899A3FF4852ED49D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */; };
+		5BA30105B0D06890F871EA24DFB7AAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		5BBE79255B73D62577FF11E925AA5B8C /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1065C405E5B7CD2AF621F8F0EF1AEC15 /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFF233F27A7D75416F0FE22B422794B /* WJHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B441D1E2E9350E48EDA37C655835F2DC /* WJHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60616E42A7604FF10F485C31CE929079 /* NSObject+ReplaceNullProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0D8AC4AC6FCFB4CE9321D92ECB4E95 /* NSObject+ReplaceNullProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FB5F33FC65257D95B2C752FDA75053 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FF90B79488392DB3FAEF1ADE2E79ED /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6795799B61ECBA40D717B21063C5E6C2 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE08E02685D96A2CE99987358A7AA32 /* NSData+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F58E00E2E36398D2C1A1BE7AC254DE /* WJBaseComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */; };
+		69532FAD1983657D5DED78CFDF66CB78 /* WJUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11CEFEA55E0594CDDCC29432CFE3F1 /* WJUserDefaults.m */; };
+		6B2FFF563DE6622999C56873E933B4C0 /* WJBaseComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 249C2DDB36B5EABAFBFF2873DBB70FF7 /* WJBaseComponent.bundle */; };
+		6FB055E54D79C8115D8BF46B1B74C2D2 /* UIImage+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4999FF042C89A47F022AA57877E44843 /* UIImage+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F97559E77D27FD9AF16CF60B8B1249 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06FD98CE6AA4CE825D12E14B1FDE38 /* SVProgressAnimatedView.m */; };
+		74E45D8419858A3F6B103C7A9AF2C8D3 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78D90E952483C054206C62B0A8616B /* SVRadialGradientLayer.m */; };
+		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 069960DD10846AFC1490A537E3FA1208 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78381519EF043F7E77F21136DB30522F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		7BB5FB84AE71E57C5BC0E0F29385864C /* FDFullscreenPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */; };
+		7C36A8B8F38B2CD4E871BC5AA46130E1 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B12936C9C85669A9A5819F4DEA6D128 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8057ACDFFD7E72EA74AD343E38770408 /* NSObject+ReplaceNullProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BA67D92948AD12C57796009147F55F /* NSObject+ReplaceNullProperty.m */; };
+		8462F73B0C4641B24AC307DB868ACBDB /* NSObject+Guard.h in Headers */ = {isa = PBXBuildFile; fileRef = C04218A086013B67F81AB0868CE1B96B /* NSObject+Guard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B293E382827F79FBD1B04D84BEEF4E /* WJBaseComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = DD142CEA89379F030978D2F47F2BB2BE /* WJBaseComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E40999289B3E6E1DEFE7777C20C79B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5865F39DD6B4A8A039011245A7821750 /* UIView+Frame.m */; };
+		861A4EAB176EE6E6E3D47CD3C0DBEB2E /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */; };
+		8C73E039FC924B5F6713BD4D810169BD /* WJHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC69A1714D2C2F865E9CFDD2054FC2 /* WJHomeModule-dummy.m */; };
+		91E91E5D94BD440B2338A68FB6E1B45B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
+		925CA82C4C5D620322E55DE1DF79A3C3 /* NSJSONSerialization+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7A5ECCCFE86BFBBA60E250437E5E6F /* NSJSONSerialization+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9268CCFB08634A34DB95C4F2253FC21E /* UtilsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 670AEB116A4BA9454F5C61466F110209 /* UtilsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9409021A46F3AD9C9DF9045D138CF0BC /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = EB740D7B01A7A84A1451D1032DE3FB2F /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A7E381874094AC5EC34F0AE3E5DBF4 /* WJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B399CD75BDC50A84B318CF820947C /* WJHomeViewController.m */; };
+		9A72E4707DFCD749F73BFB142E942ADA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 675ADD79583C221BDDC876057DDAC373 /* SVProgressHUD.m */; };
+		9D5877BEC4349977350031EB367478D4 /* NSJSONSerialization+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A0C213094557E1D6C2D6CA7C54516 /* NSJSONSerialization+JSON.m */; };
+		A142D36B704C6469F3D24417D41EF3C2 /* WJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80CD7335EF2377C82E068064169BF9 /* WJTabBarController.m */; };
+		A5F5AE9DB85EE2A59F8F3EACA1B4E518 /* NSTimer+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC647C0BC8FA37CA932198269F684D6 /* NSTimer+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9ED90F0AEE4F178BC00024B75B31C4B /* CTMediator+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 012DD9AB0EADF397C74CBF4FEC15DB3B /* CTMediator+Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7B13217791CAABFBB8549F726FA8E5 /* Pods-WJComponentProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA89EBF4D2C319D8A71B87E3DEB3174 /* Pods-WJComponentProject-dummy.m */; };
+		B1A2BDBD0EF13E7CD58D67645B3C5538 /* Target_Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0436C272ABC1A1133747BF9894EE9F /* Target_Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31B0B0AA0B7AECB7515D106DD6DF907 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D90EFC84D2894A508DD71F31EE6F47AF /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EAFBD8F24D4F2FA15F49467D7B9D21 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A7B6E3F44FB3AE19B4589C46762EE2 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C245FB50A1F8D452C3172715D2D6D /* UINavigationController+FDFullscreenPopGesture.m */; };
+		BDBA6E75EFF1A94A413D9F2BB4D93CD8 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B7B7A31EFAB433DC8524874498C06 /* NSDate+Extensions.m */; };
+		C0F87F5BBA059DED5F906203DDC75011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		C3E1AEA2AE79F9A922A419861CAB533B /* WJBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD64669638BC30FE1621A208A014F /* WJBaseComponent-dummy.m */; };
+		C429743A935F84DD21DBB1E4EE47E243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		C42D752B2C66661FB52ACCA3087658C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
+		C43DE0A4921A4E82B3FAD577D00485FD /* checkUserType_backward_9x15_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B90E7CBD983B13C5AF9E851F0002951 /* checkUserType_backward_9x15_@2x.png */; };
+		C8FF8E1F11FE66C324264AC69C4BAB9B /* WJStandard_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C105FA140E7E932A789E143A5BD979 /* WJStandard_Category-dummy.m */; };
+		CB8CE73389E46C37EFA7010AC6F85F4C /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8690FABF62C0C455700565598460A789 /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBC4B4DA0E17D119B3FAF0CB4523206E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		CEED867D6A36D99ACF0ADAD77E619601 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ABED35E32ABF77282E6027D80D7F83C5 /* NSObject+Dictionary.m */; };
+		D5FB06790B7FC4A6CD12F0C98C2A1B79 /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786CB50EDD616D24FDB7D13C960836F /* WJBaseViewController.m */; };
+		D83DACDB9BF5B26DFE24A7ED83B38340 /* WJBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A08AB6E5116ED250DF3725D9D698A8EC /* WJBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE778A5E9F69C32AF528063D1B5222BF /* Target_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC328A4F6A279C3E8176D53CFC6801 /* Target_Standard.m */; };
+		E1C429D921CE124C1882B6847B6ADE94 /* WJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E36BD9983AC00855A1C63AC8303D77 /* WJNavigationViewController.m */; };
+		E5B10915CD73850848E31B680C9C9ECD /* WJHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E45F263C756781025B26E8F34EEECA1D /* WJHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152300ABCB395F647F422A66CC633FAD /* FDFullscreenPopGesture-dummy.m */; };
+		E7D7357101A0F06187183D324214F4F7 /* APIStringMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD1298C25BE2D3526B3CBC45CDE5244 /* APIStringMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9D5FBF65DB8BCB5B615CBD9A28DB8B /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C9D2350CF82DD970D745AE776D66 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F322B9AA316FCBE59BD46FC958F23AF5 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 667931191FA4B3DEA3E1CCA2BAF82F8A /* NSData+Extensions.m */; };
+		F3FF2736DBBC0F0C7D20EA8D78C40639 /* DimensMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DF6C1AB65AD85FF6419BB3EE46E7A7 /* DimensMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DF41CD13224EDF50E432FD5B8EFCBD /* NSObject+Guard.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D238A26BCE4B44F27C30A96A65C470 /* NSObject+Guard.m */; };
+		F752557906E0F529F95490E81E0611B3 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 780F38017FE6625AFBA917F5B983B9A8 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0464F229295B47BCA11F22F34BF89B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		0DB9908F671892AB74CD60FC70872993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DA405C3B4F19DB6F20B2407A0D328B;
+			remoteInfo = SVProgressHUD;
+		};
+		2A7769670D18DECFC118CFA215478E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A0054EA3535F57052B6464B7D82072;
+			remoteInfo = "WJBaseComponent-WJBaseComponent";
+		};
+		40A8CC5717DF5F1F60BC0B16F7DDCE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB3F494A15212E93578870E7CED0571;
+			remoteInfo = WJStandard_Category;
+		};
+		47A612D1B3D573E93BF19E41EBC28FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		54ABEBE6ED5E77FB9E18DE3EB42B8245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		70FAC1712003A08A69F56B43AC939760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAE2D82CFE9942D51D63689A680705A;
+			remoteInfo = WJBaseComponent;
+		};
+		760880AAD832D26F69AD93DFB2766C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		7E5D3C2298008DB0B81B4FA2AA2C6377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		C321D3222C3C289672CF772980130237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAE2D82CFE9942D51D63689A680705A;
+			remoteInfo = WJBaseComponent;
+		};
+		C6BD3A05F3C3CEF0E6D7FB31674A790A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DA405C3B4F19DB6F20B2407A0D328B;
+			remoteInfo = SVProgressHUD;
+		};
+		D51180CD2DB20199B4B8B48E8F75F3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96DCC5A8CC781465E77B3B0F2837A253;
+			remoteInfo = WJHomeModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012DD9AB0EADF397C74CBF4FEC15DB3B /* CTMediator+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+Standard.h"; path = "WJStandard_Category/Classes/CTMediator+Standard.h"; sourceTree = "<group>"; };
+		01B329FAF9DCB622A28FC071CBDE99BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069960DD10846AFC1490A537E3FA1208 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		07CC69A1714D2C2F865E9CFDD2054FC2 /* WJHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJHomeModule-dummy.m"; sourceTree = "<group>"; };
+		09E1C06224EAD81E69B46FCCDC95215D /* CTMediator+Standard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Standard.m"; path = "WJStandard_Category/Classes/CTMediator+Standard.m"; sourceTree = "<group>"; };
+		0A0B552CA873973AA14CD948F2CD66EE /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		0AD8A376A7181538DD0ED4BF667BAEFE /* Pods-WJComponentProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJComponentProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B162BD18941CC34F89F26B908D8740A /* Pods-WJComponentProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJComponentProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E90C9D2350CF82DD970D745AE776D66 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		0F60B36DE2BF37BA040900A8D977088F /* WJHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJHomeModule.framework; path = WJHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7A5ECCCFE86BFBBA60E250437E5E6F /* NSJSONSerialization+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+JSON.h"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.h"; sourceTree = "<group>"; };
+		1065C405E5B7CD2AF621F8F0EF1AEC15 /* NSDate+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "WJBaseComponent/Classes/Category/NSDate+Extensions.h"; sourceTree = "<group>"; };
+		152300ABCB395F647F422A66CC633FAD /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		1B90E7CBD983B13C5AF9E851F0002951 /* checkUserType_backward_9x15_@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "checkUserType_backward_9x15_@2x.png"; path = "WJBaseComponent/Assets/checkUserType_backward_9x15_@2x.png"; sourceTree = "<group>"; };
+		1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C245FB50A1F8D452C3172715D2D6D /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		218AC9CCF46DC16F87DFE7220FD44756 /* checkUserType_backward_9x15_@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "checkUserType_backward_9x15_@3x.png"; path = "WJBaseComponent/Assets/checkUserType_backward_9x15_@3x.png"; sourceTree = "<group>"; };
+		249C2DDB36B5EABAFBFF2873DBB70FF7 /* WJBaseComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WJBaseComponent.bundle; path = WJBaseComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2601F4EC71CA6C90B6C379099C7B19BA /* WJNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJNavigationViewController.h; path = WJBaseComponent/Classes/Base/ViewController/WJNavigationViewController.h; sourceTree = "<group>"; };
+		2AC647C0BC8FA37CA932198269F684D6 /* NSTimer+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Addition.h"; path = "WJBaseComponent/Classes/Category/NSTimer+Addition.h"; sourceTree = "<group>"; };
+		2BE4C165B60FB15A79C075880CFA20BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C85904DE71F862E109086FE5802004E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2CA89EBF4D2C319D8A71B87E3DEB3174 /* Pods-WJComponentProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJComponentProject-dummy.m"; sourceTree = "<group>"; };
+		2EE08E02685D96A2CE99987358A7AA32 /* NSData+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Extensions.h"; path = "WJBaseComponent/Classes/Category/NSData+Extensions.h"; sourceTree = "<group>"; };
+		2F0D8AC4AC6FCFB4CE9321D92ECB4E95 /* NSObject+ReplaceNullProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ReplaceNullProperty.h"; path = "WJBaseComponent/Classes/Category/NSObject+ReplaceNullProperty.h"; sourceTree = "<group>"; };
+		3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35039FB0878400FD6C737C5B88EF5369 /* WJTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJTabBarController.h; path = WJBaseComponent/Classes/Base/ViewController/WJTabBarController.h; sourceTree = "<group>"; };
+		35098F501C9D1035ADDC9C521142AA11 /* NotificatonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificatonMacros.h; path = WJBaseComponent/Classes/Macros/NotificatonMacros.h; sourceTree = "<group>"; };
+		364B399CD75BDC50A84B318CF820947C /* WJHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJHomeViewController.m; path = WJHomeModule/Classes/Business/WJHomeViewController.m; sourceTree = "<group>"; };
+		38F280C183BA5E6CAF984F22D33BEFD8 /* Pods-WJComponentProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJComponentProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3EBA8BFE42C0BABFC3C27AC865C4F068 /* Pods-WJComponentProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJComponentProject-frameworks.sh"; sourceTree = "<group>"; };
+		42D65804886D90CC4ECD5E93D3D95C77 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		46BAC2AA991FEA76D22B60F5E5D124DD /* ResourceBundle-WJBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WJBaseComponent-Info.plist"; sourceTree = "<group>"; };
+		47652A901951D70BB3AE706DF2231962 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490AA987DBC7C3057A4F04970921A91C /* Pods-WJComponentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJComponentProject.release.xcconfig"; sourceTree = "<group>"; };
+		4999FF042C89A47F022AA57877E44843 /* UIImage+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extensions.h"; path = "WJBaseComponent/Classes/Category/UIImage+Extensions.h"; sourceTree = "<group>"; };
+		4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJBaseComponent.xcconfig; sourceTree = "<group>"; };
+		4F8BA847448F935FBF6597433E1735DF /* WJStandard_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJStandard_Category-prefix.pch"; sourceTree = "<group>"; };
+		507AE8D51060ACF7B833202B0D55AA91 /* Pods-WJComponentProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJComponentProject-resources.sh"; sourceTree = "<group>"; };
+		5130DA762C9F743A22C24F5C153DC538 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		527A1104A13A1E8034D234A53BC05994 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5786CB50EDD616D24FDB7D13C960836F /* WJBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJBaseViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJBaseViewController.m; sourceTree = "<group>"; };
+		5865F39DD6B4A8A039011245A7821750 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "WJBaseComponent/Classes/Category/UIView+Frame.m"; sourceTree = "<group>"; };
+		5B12936C9C85669A9A5819F4DEA6D128 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		5C06FD98CE6AA4CE825D12E14B1FDE38 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		5C80CD7335EF2377C82E068064169BF9 /* WJTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJTabBarController.m; path = WJBaseComponent/Classes/Base/ViewController/WJTabBarController.m; sourceTree = "<group>"; };
+		5FDDA78A453525DE46F06FDCEBC76133 /* WJHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJHomeModule.xcconfig; sourceTree = "<group>"; };
+		6082465BEC207F1DE3014B5FB323B2D6 /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
+		60C3E47A3A96999B1B9299574851008D /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJBaseComponent.framework; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EBA86A40F86CA4361F5A49768A4D23 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		62BA67D92948AD12C57796009147F55F /* NSObject+ReplaceNullProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ReplaceNullProperty.m"; path = "WJBaseComponent/Classes/Category/NSObject+ReplaceNullProperty.m"; sourceTree = "<group>"; };
+		62FD2E4BAA29A287BB7FE866488AFDA6 /* WJBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-prefix.pch"; sourceTree = "<group>"; };
+		65EE1E7F617B38DBD044892C162069B0 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667931191FA4B3DEA3E1CCA2BAF82F8A /* NSData+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Extensions.m"; path = "WJBaseComponent/Classes/Category/NSData+Extensions.m"; sourceTree = "<group>"; };
+		670AEB116A4BA9454F5C61466F110209 /* UtilsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilsMacros.h; path = WJBaseComponent/Classes/Macros/UtilsMacros.h; sourceTree = "<group>"; };
+		675ADD79583C221BDDC876057DDAC373 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		69A034548995F8C4378705A925FBD12F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CDA8CED6B304D2C219A0661E30B6BF9 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		73495FEEE35735C57A76B1190AD12D3D /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		780F38017FE6625AFBA917F5B983B9A8 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		7B304315F370168462F4E2BE98D9028B /* Pods_WJComponentProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJComponentProject.framework; path = "Pods-WJComponentProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86B37B6E8CFB370246B479F78EF746 /* NSTimer+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Addition.m"; path = "WJBaseComponent/Classes/Category/NSTimer+Addition.m"; sourceTree = "<group>"; };
+		7CD5FBE176F4BDE8265F9781D7C6A39F /* WJStandard_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJStandard_Category.framework; path = WJStandard_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6D5D76BE23FC6F6326A74B867ECD3 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		8690FABF62C0C455700565598460A789 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "WJBaseComponent/Classes/Category/NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		86C105FA140E7E932A789E143A5BD979 /* WJStandard_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJStandard_Category-dummy.m"; sourceTree = "<group>"; };
+		89D238A26BCE4B44F27C30A96A65C470 /* NSObject+Guard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Guard.m"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.m"; sourceTree = "<group>"; };
+		8B54DCAE3962F2F6D86340F8A3184BF5 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = WJBaseComponent/Classes/Macros/Macros.h; sourceTree = "<group>"; };
+		91835D938159ABE4E42DA839198EE897 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945BA2D56329B0292BEC2448B7E85696 /* UIViewController+RunDealloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RunDealloc.h"; path = "WJBaseComponent/Classes/Category/UIViewController+RunDealloc.h"; sourceTree = "<group>"; };
+		95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9CA9B76894988BE55CB7F0F0F075667E /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD69CC98D9384027A61D70084348E2A /* WJUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJUserDefaults.h; path = WJBaseComponent/Classes/Tools/WJUserDefaults/WJUserDefaults.h; sourceTree = "<group>"; };
+		9DFC328A4F6A279C3E8176D53CFC6801 /* Target_Standard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_Standard.m; path = WJHomeModule/Classes/Target/Target_Standard.m; sourceTree = "<group>"; };
+		9E7F4535470CCECC6FA05F462ACAA0E4 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		A08AB6E5116ED250DF3725D9D698A8EC /* WJBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJBaseViewController.h; path = WJBaseComponent/Classes/Base/ViewController/WJBaseViewController.h; sourceTree = "<group>"; };
+		A254A6E053BDD53064CCD2C37048C6E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A598D54DCC8089417757A2A65A2645FA /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59A0C213094557E1D6C2D6CA7C54516 /* NSJSONSerialization+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+JSON.m"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.m"; sourceTree = "<group>"; };
+		A96CC864AC740AC8D42C85D7B1C9C7D2 /* WJBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJBaseComponent.modulemap; sourceTree = "<group>"; };
+		AA78D90E952483C054206C62B0A8616B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		ABED35E32ABF77282E6027D80D7F83C5 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "WJBaseComponent/Classes/Category/NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		AC081528ED6883281265350836449E2C /* WJStandard_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJStandard_Category.xcconfig; sourceTree = "<group>"; };
+		AC11CEFEA55E0594CDDCC29432CFE3F1 /* WJUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJUserDefaults.m; path = WJBaseComponent/Classes/Tools/WJUserDefaults/WJUserDefaults.m; sourceTree = "<group>"; };
+		ACDB0C487729F2F07B889C48610462F2 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		B441D1E2E9350E48EDA37C655835F2DC /* WJHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		BE0436C272ABC1A1133747BF9894EE9F /* Target_Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_Standard.h; path = WJHomeModule/Classes/Target/Target_Standard.h; sourceTree = "<group>"; };
+		C04218A086013B67F81AB0868CE1B96B /* NSObject+Guard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Guard.h"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.h"; sourceTree = "<group>"; };
+		C0DC3218619436B1AFDFD418D4821C79 /* Pods-WJComponentProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJComponentProject-umbrella.h"; sourceTree = "<group>"; };
+		C1A7B6E3F44FB3AE19B4589C46762EE2 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		C1FF90B79488392DB3FAEF1ADE2E79ED /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "WJBaseComponent/Classes/Category/UIView+Frame.h"; sourceTree = "<group>"; };
+		CAC00FE23C2A386FDDE025B94DC3D98D /* WJStandard_Category-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJStandard_Category-umbrella.h"; sourceTree = "<group>"; };
+		CB41492C1E49513804ADA1F207047BC8 /* WJHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBBD64669638BC30FE1621A208A014F /* WJBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		CDD1298C25BE2D3526B3CBC45CDE5244 /* APIStringMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIStringMacros.h; path = WJBaseComponent/Classes/Macros/APIStringMacros.h; sourceTree = "<group>"; };
+		CF0B7B7A31EFAB433DC8524874498C06 /* NSDate+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extensions.m"; path = "WJBaseComponent/Classes/Category/NSDate+Extensions.m"; sourceTree = "<group>"; };
+		D3E36BD9983AC00855A1C63AC8303D77 /* WJNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJNavigationViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJNavigationViewController.m; sourceTree = "<group>"; };
+		D600674C3069B8C52E2A181C2B1129A7 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D7E5ACD1F250B0624F070598BDFCC5BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A027A85EA0137AB8C63B8D6E5C653A /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		D90EFC84D2894A508DD71F31EE6F47AF /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		D938B358527030F180798F506299A05E /* Pods-WJComponentProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJComponentProject.modulemap"; sourceTree = "<group>"; };
+		DD142CEA89379F030978D2F47F2BB2BE /* WJBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJBaseComponent.h; path = WJBaseComponent/Classes/WJBaseComponent.h; sourceTree = "<group>"; };
+		DD2AC485897201F7951747C4CE33CB5C /* UIImage+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "WJBaseComponent/Classes/Category/UIImage+Extensions.m"; sourceTree = "<group>"; };
+		E45F263C756781025B26E8F34EEECA1D /* WJHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJHomeViewController.h; path = WJHomeModule/Classes/Business/WJHomeViewController.h; sourceTree = "<group>"; };
+		E543AFB371C60EEB754C9A9CADB14C5D /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		E5DF6C1AB65AD85FF6419BB3EE46E7A7 /* DimensMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DimensMacros.h; path = WJBaseComponent/Classes/Macros/DimensMacros.h; sourceTree = "<group>"; };
+		E82B6171C6419D3CB6F1AD456E41DDFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB740D7B01A7A84A1451D1032DE3FB2F /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		ECFDC4D092EF918BDCB8C989411A6C8D /* WJStandard_Category.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJStandard_Category.modulemap; sourceTree = "<group>"; };
+		F10C96E4A5E5362F2B19FD79CB88A1EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D78AD1381DEA7111F0F213CC4E6E31 /* WJBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-umbrella.h"; sourceTree = "<group>"; };
+		FA44435386EF201620DA6493B479C3F6 /* UIViewController+RunDealloc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RunDealloc.m"; path = "WJBaseComponent/Classes/Category/UIViewController+RunDealloc.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1099C4DAF86D14B3E41B175A55515A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBDE7A1EC421E4703EAE8B533BA1300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1A526F943B28FFF6623007F280F855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9409021A46F3AD9C9DF9045D138CF0BC /* CTMediator.framework in Frameworks */,
+				5BA30105B0D06890F871EA24DFB7AAC5 /* Foundation.framework in Frameworks */,
+				C42D752B2C66661FB52ACCA3087658C7 /* UIKit.framework in Frameworks */,
+				67F58E00E2E36398D2C1A1BE7AC254DE /* WJBaseComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DD04B69D01583F9D23790722B82E1D /* Foundation.framework in Frameworks */,
+				91E91E5D94BD440B2338A68FB6E1B45B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285B471DF6EFB9F4079EF89DF1D09FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5FB84AE71E57C5BC0E0F29385864C /* FDFullscreenPopGesture.framework in Frameworks */,
+				C429743A935F84DD21DBB1E4EE47E243 /* Foundation.framework in Frameworks */,
+				861A4EAB176EE6E6E3D47CD3C0DBEB2E /* SVProgressHUD.framework in Frameworks */,
+				54E12210AD471BE315545D0C96EA3840 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DB7C27AAB03E657C41AE810D9B7457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66AB5494BB7F28B2D290C2A95EFCF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8A1BA12AF2A0B7F828A09CAFD9BC1 /* CTMediator.framework in Frameworks */,
+				CBC4B4DA0E17D119B3FAF0CB4523206E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D812A7ADCFD445FCBFFE7DED368DA884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78381519EF043F7E77F21136DB30522F /* Foundation.framework in Frameworks */,
+				57E38AC7D8B8687899A3FF4852ED49D6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F87F5BBA059DED5F906203DDC75011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EC0AE16EC794F8D5CE00BF78759C86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69A034548995F8C4378705A925FBD12F /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01F2DC16519BDF80CE2B3F954DE01651 /* Pods-WJComponentProject */ = {
+			isa = PBXGroup;
+			children = (
+				D7E5ACD1F250B0624F070598BDFCC5BC /* Info.plist */,
+				D938B358527030F180798F506299A05E /* Pods-WJComponentProject.modulemap */,
+				0AD8A376A7181538DD0ED4BF667BAEFE /* Pods-WJComponentProject-acknowledgements.markdown */,
+				0B162BD18941CC34F89F26B908D8740A /* Pods-WJComponentProject-acknowledgements.plist */,
+				2CA89EBF4D2C319D8A71B87E3DEB3174 /* Pods-WJComponentProject-dummy.m */,
+				3EBA8BFE42C0BABFC3C27AC865C4F068 /* Pods-WJComponentProject-frameworks.sh */,
+				507AE8D51060ACF7B833202B0D55AA91 /* Pods-WJComponentProject-resources.sh */,
+				C0DC3218619436B1AFDFD418D4821C79 /* Pods-WJComponentProject-umbrella.h */,
+				38F280C183BA5E6CAF984F22D33BEFD8 /* Pods-WJComponentProject.debug.xcconfig */,
+				490AA987DBC7C3057A4F04970921A91C /* Pods-WJComponentProject.release.xcconfig */,
+			);
+			name = "Pods-WJComponentProject";
+			path = "Target Support Files/Pods-WJComponentProject";
+			sourceTree = "<group>";
+		};
+		125D074057E46E25C2E63D37B3AEBA61 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC00FD14030D5CE29BCAA73851D3F3 /* WJUserDefaults */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		24DC3103D418DE8EA68179470CB3DB98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47652A901951D70BB3AE706DF2231962 /* Info.plist */,
+				ECFDC4D092EF918BDCB8C989411A6C8D /* WJStandard_Category.modulemap */,
+				AC081528ED6883281265350836449E2C /* WJStandard_Category.xcconfig */,
+				86C105FA140E7E932A789E143A5BD979 /* WJStandard_Category-dummy.m */,
+				4F8BA847448F935FBF6597433E1735DF /* WJStandard_Category-prefix.pch */,
+				CAC00FE23C2A386FDDE025B94DC3D98D /* WJStandard_Category-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJStandard_Category";
+			sourceTree = "<group>";
+		};
+		47DF6757F837C74B9C021A5659DBB5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65EE1E7F617B38DBD044892C162069B0 /* CTMediator.framework */,
+				A598D54DCC8089417757A2A65A2645FA /* FDFullscreenPopGesture.framework */,
+				7B304315F370168462F4E2BE98D9028B /* Pods_WJComponentProject.framework */,
+				9CA9B76894988BE55CB7F0F0F075667E /* SVProgressHUD.framework */,
+				249C2DDB36B5EABAFBFF2873DBB70FF7 /* WJBaseComponent.bundle */,
+				60C3E47A3A96999B1B9299574851008D /* WJBaseComponent.framework */,
+				0F60B36DE2BF37BA040900A8D977088F /* WJHomeModule.framework */,
+				7CD5FBE176F4BDE8265F9781D7C6A39F /* WJStandard_Category.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F7433CD4A4C56C365C6B87AC6859DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F38991F75200BF8A17F99F1E3EE1E /* ViewController */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		512B7BF7F821C4A9DE03504D833F5C95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73495FEEE35735C57A76B1190AD12D3D /* FDFullscreenPopGesture.modulemap */,
+				ACDB0C487729F2F07B889C48610462F2 /* FDFullscreenPopGesture.xcconfig */,
+				152300ABCB395F647F422A66CC633FAD /* FDFullscreenPopGesture-dummy.m */,
+				E543AFB371C60EEB754C9A9CADB14C5D /* FDFullscreenPopGesture-prefix.pch */,
+				069960DD10846AFC1490A537E3FA1208 /* FDFullscreenPopGesture-umbrella.h */,
+				F10C96E4A5E5362F2B19FD79CB88A1EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		58C4AE6CA577303504EBA55C0383569C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A254A6E053BDD53064CCD2C37048C6E8 /* Info.plist */,
+				6082465BEC207F1DE3014B5FB323B2D6 /* WJHomeModule.modulemap */,
+				5FDDA78A453525DE46F06FDCEBC76133 /* WJHomeModule.xcconfig */,
+				07CC69A1714D2C2F865E9CFDD2054FC2 /* WJHomeModule-dummy.m */,
+				CB41492C1E49513804ADA1F207047BC8 /* WJHomeModule-prefix.pch */,
+				B441D1E2E9350E48EDA37C655835F2DC /* WJHomeModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJHomeModule";
+			sourceTree = "<group>";
+		};
+		6B5D81CA80AAC8B5413275731D7107B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01F2DC16519BDF80CE2B3F954DE01651 /* Pods-WJComponentProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FE83545DC2C7AEA1AEEDA3BBA4CF249 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E45F263C756781025B26E8F34EEECA1D /* WJHomeViewController.h */,
+				364B399CD75BDC50A84B318CF820947C /* WJHomeViewController.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		730CF0D4AA610183804EDB3EB896DA57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE4C165B60FB15A79C075880CFA20BD /* Info.plist */,
+				0A0B552CA873973AA14CD948F2CD66EE /* SVProgressHUD.modulemap */,
+				61EBA86A40F86CA4361F5A49768A4D23 /* SVProgressHUD.xcconfig */,
+				5130DA762C9F743A22C24F5C153DC538 /* SVProgressHUD-dummy.m */,
+				527A1104A13A1E8034D234A53BC05994 /* SVProgressHUD-prefix.pch */,
+				780F38017FE6625AFBA917F5B983B9A8 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		7B099CC40F2D77618658E954D419D641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */,
+				1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */,
+				3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */,
+				7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */,
+				8BEA4211D41D9CD25ABC343C7F1A0CD2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7B099CC40F2D77618658E954D419D641 /* Frameworks */,
+				85E449F9DB584655078F01BC51A6DF53 /* Pods */,
+				47DF6757F837C74B9C021A5659DBB5E9 /* Products */,
+				6B5D81CA80AAC8B5413275731D7107B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85E449F9DB584655078F01BC51A6DF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F2548D1D7BDA8732864B6906C863D0 /* CTMediator */,
+				C8466FBF64019B62E4E09BDA5F47EC6A /* FDFullscreenPopGesture */,
+				985C6E0068E03E174F019292895FC17A /* SVProgressHUD */,
+				979F6495278E65396DC3DC96816517D3 /* WJBaseComponent */,
+				CCC118FB85732AA31F7571870A0C6AA1 /* WJHomeModule */,
+				8C1315DF7F91268BB2797C625D43F48E /* WJStandard_Category */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A006F9A2AB2986CF6CD3426623F3021 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E82B6171C6419D3CB6F1AD456E41DDFE /* Info.plist */,
+				46BAC2AA991FEA76D22B60F5E5D124DD /* ResourceBundle-WJBaseComponent-Info.plist */,
+				A96CC864AC740AC8D42C85D7B1C9C7D2 /* WJBaseComponent.modulemap */,
+				4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */,
+				CDBBD64669638BC30FE1621A208A014F /* WJBaseComponent-dummy.m */,
+				62FD2E4BAA29A287BB7FE866488AFDA6 /* WJBaseComponent-prefix.pch */,
+				F7D78AD1381DEA7111F0F213CC4E6E31 /* WJBaseComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJBaseComponent";
+			sourceTree = "<group>";
+		};
+		8BEA4211D41D9CD25ABC343C7F1A0CD2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */,
+				71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */,
+				95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C1315DF7F91268BB2797C625D43F48E /* WJStandard_Category */ = {
+			isa = PBXGroup;
+			children = (
+				012DD9AB0EADF397C74CBF4FEC15DB3B /* CTMediator+Standard.h */,
+				09E1C06224EAD81E69B46FCCDC95215D /* CTMediator+Standard.m */,
+				24DC3103D418DE8EA68179470CB3DB98 /* Support Files */,
+			);
+			name = WJStandard_Category;
+			path = WJStandard_Category;
+			sourceTree = "<group>";
+		};
+		93F2548D1D7BDA8732864B6906C863D0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				EB740D7B01A7A84A1451D1032DE3FB2F /* CTMediator.h */,
+				0E90C9D2350CF82DD970D745AE776D66 /* CTMediator.m */,
+				E8BC67EB102A275D781FBB7E8E09A0B0 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		979F6495278E65396DC3DC96816517D3 /* WJBaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DD142CEA89379F030978D2F47F2BB2BE /* WJBaseComponent.h */,
+				47F7433CD4A4C56C365C6B87AC6859DC /* Base */,
+				F9DE3362957FD5E57A7514F941033C1D /* Category */,
+				D86F35B17923FE34CA4B734D3F8428C5 /* Macros */,
+				EF20EE62EABDBA9FED73D1C2927D6D54 /* Resources */,
+				8A006F9A2AB2986CF6CD3426623F3021 /* Support Files */,
+				125D074057E46E25C2E63D37B3AEBA61 /* Tools */,
+			);
+			name = WJBaseComponent;
+			path = WJBaseComponent;
+			sourceTree = "<group>";
+		};
+		985C6E0068E03E174F019292895FC17A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5B12936C9C85669A9A5819F4DEA6D128 /* SVIndefiniteAnimatedView.h */,
+				2C85904DE71F862E109086FE5802004E /* SVIndefiniteAnimatedView.m */,
+				42D65804886D90CC4ECD5E93D3D95C77 /* SVProgressAnimatedView.h */,
+				5C06FD98CE6AA4CE825D12E14B1FDE38 /* SVProgressAnimatedView.m */,
+				D90EFC84D2894A508DD71F31EE6F47AF /* SVProgressHUD.h */,
+				675ADD79583C221BDDC876057DDAC373 /* SVProgressHUD.m */,
+				C1A7B6E3F44FB3AE19B4589C46762EE2 /* SVRadialGradientLayer.h */,
+				AA78D90E952483C054206C62B0A8616B /* SVRadialGradientLayer.m */,
+				01EC0AE16EC794F8D5CE00BF78759C86 /* Resources */,
+				730CF0D4AA610183804EDB3EB896DA57 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		C3AC00FD14030D5CE29BCAA73851D3F3 /* WJUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				9DD69CC98D9384027A61D70084348E2A /* WJUserDefaults.h */,
+				AC11CEFEA55E0594CDDCC29432CFE3F1 /* WJUserDefaults.m */,
+			);
+			name = WJUserDefaults;
+			sourceTree = "<group>";
+		};
+		C8466FBF64019B62E4E09BDA5F47EC6A /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D600674C3069B8C52E2A181C2B1129A7 /* UINavigationController+FDFullscreenPopGesture.h */,
+				1F0C245FB50A1F8D452C3172715D2D6D /* UINavigationController+FDFullscreenPopGesture.m */,
+				512B7BF7F821C4A9DE03504D833F5C95 /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		CA4AC4C64EC7AD65DA47A2FDA7FE73D3 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				BE0436C272ABC1A1133747BF9894EE9F /* Target_Standard.h */,
+				9DFC328A4F6A279C3E8176D53CFC6801 /* Target_Standard.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		CCC118FB85732AA31F7571870A0C6AA1 /* WJHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FE83545DC2C7AEA1AEEDA3BBA4CF249 /* Business */,
+				58C4AE6CA577303504EBA55C0383569C /* Support Files */,
+				CA4AC4C64EC7AD65DA47A2FDA7FE73D3 /* Target */,
+			);
+			name = WJHomeModule;
+			path = WJHomeModule;
+			sourceTree = "<group>";
+		};
+		CF7F38991F75200BF8A17F99F1E3EE1E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A08AB6E5116ED250DF3725D9D698A8EC /* WJBaseViewController.h */,
+				5786CB50EDD616D24FDB7D13C960836F /* WJBaseViewController.m */,
+				2601F4EC71CA6C90B6C379099C7B19BA /* WJNavigationViewController.h */,
+				D3E36BD9983AC00855A1C63AC8303D77 /* WJNavigationViewController.m */,
+				35039FB0878400FD6C737C5B88EF5369 /* WJTabBarController.h */,
+				5C80CD7335EF2377C82E068064169BF9 /* WJTabBarController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D86F35B17923FE34CA4B734D3F8428C5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				CDD1298C25BE2D3526B3CBC45CDE5244 /* APIStringMacros.h */,
+				E5DF6C1AB65AD85FF6419BB3EE46E7A7 /* DimensMacros.h */,
+				8B54DCAE3962F2F6D86340F8A3184BF5 /* Macros.h */,
+				35098F501C9D1035ADDC9C521142AA11 /* NotificatonMacros.h */,
+				670AEB116A4BA9454F5C61466F110209 /* UtilsMacros.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		E8BC67EB102A275D781FBB7E8E09A0B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A027A85EA0137AB8C63B8D6E5C653A /* CTMediator.modulemap */,
+				81B6D5D76BE23FC6F6326A74B867ECD3 /* CTMediator.xcconfig */,
+				9E7F4535470CCECC6FA05F462ACAA0E4 /* CTMediator-dummy.m */,
+				6CDA8CED6B304D2C219A0661E30B6BF9 /* CTMediator-prefix.pch */,
+				91835D938159ABE4E42DA839198EE897 /* CTMediator-umbrella.h */,
+				01B329FAF9DCB622A28FC071CBDE99BA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		EF20EE62EABDBA9FED73D1C2927D6D54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B90E7CBD983B13C5AF9E851F0002951 /* checkUserType_backward_9x15_@2x.png */,
+				218AC9CCF46DC16F87DFE7220FD44756 /* checkUserType_backward_9x15_@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9DE3362957FD5E57A7514F941033C1D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2EE08E02685D96A2CE99987358A7AA32 /* NSData+Extensions.h */,
+				667931191FA4B3DEA3E1CCA2BAF82F8A /* NSData+Extensions.m */,
+				1065C405E5B7CD2AF621F8F0EF1AEC15 /* NSDate+Extensions.h */,
+				CF0B7B7A31EFAB433DC8524874498C06 /* NSDate+Extensions.m */,
+				0F7A5ECCCFE86BFBBA60E250437E5E6F /* NSJSONSerialization+JSON.h */,
+				A59A0C213094557E1D6C2D6CA7C54516 /* NSJSONSerialization+JSON.m */,
+				8690FABF62C0C455700565598460A789 /* NSObject+Dictionary.h */,
+				ABED35E32ABF77282E6027D80D7F83C5 /* NSObject+Dictionary.m */,
+				C04218A086013B67F81AB0868CE1B96B /* NSObject+Guard.h */,
+				89D238A26BCE4B44F27C30A96A65C470 /* NSObject+Guard.m */,
+				2F0D8AC4AC6FCFB4CE9321D92ECB4E95 /* NSObject+ReplaceNullProperty.h */,
+				62BA67D92948AD12C57796009147F55F /* NSObject+ReplaceNullProperty.m */,
+				2AC647C0BC8FA37CA932198269F684D6 /* NSTimer+Addition.h */,
+				7C86B37B6E8CFB370246B479F78EF746 /* NSTimer+Addition.m */,
+				4999FF042C89A47F022AA57877E44843 /* UIImage+Extensions.h */,
+				DD2AC485897201F7951747C4CE33CB5C /* UIImage+Extensions.m */,
+				C1FF90B79488392DB3FAEF1ADE2E79ED /* UIView+Frame.h */,
+				5865F39DD6B4A8A039011245A7821750 /* UIView+Frame.m */,
+				945BA2D56329B0292BEC2448B7E85696 /* UIViewController+RunDealloc.h */,
+				FA44435386EF201620DA6493B479C3F6 /* UIViewController+RunDealloc.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C15DEDA8E5A0119BB08319AA407B9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D7357101A0F06187183D324214F4F7 /* APIStringMacros.h in Headers */,
+				F3FF2736DBBC0F0C7D20EA8D78C40639 /* DimensMacros.h in Headers */,
+				33E40E9BA5A587A83ECF01F8539ADE9D /* Macros.h in Headers */,
+				564D17B51CA2FA045B5FF35C1F35E4E1 /* NotificatonMacros.h in Headers */,
+				6795799B61ECBA40D717B21063C5E6C2 /* NSData+Extensions.h in Headers */,
+				5BBE79255B73D62577FF11E925AA5B8C /* NSDate+Extensions.h in Headers */,
+				925CA82C4C5D620322E55DE1DF79A3C3 /* NSJSONSerialization+JSON.h in Headers */,
+				CB8CE73389E46C37EFA7010AC6F85F4C /* NSObject+Dictionary.h in Headers */,
+				8462F73B0C4641B24AC307DB868ACBDB /* NSObject+Guard.h in Headers */,
+				60616E42A7604FF10F485C31CE929079 /* NSObject+ReplaceNullProperty.h in Headers */,
+				A5F5AE9DB85EE2A59F8F3EACA1B4E518 /* NSTimer+Addition.h in Headers */,
+				6FB055E54D79C8115D8BF46B1B74C2D2 /* UIImage+Extensions.h in Headers */,
+				60FB5F33FC65257D95B2C752FDA75053 /* UIView+Frame.h in Headers */,
+				44BE41D38AADF38CB2B7EAB07ED93CB3 /* UIViewController+RunDealloc.h in Headers */,
+				9268CCFB08634A34DB95C4F2253FC21E /* UtilsMacros.h in Headers */,
+				40C22FEED74BBAC5EAE6731BA9BDDCAD /* WJBaseComponent-umbrella.h in Headers */,
+				84B293E382827F79FBD1B04D84BEEF4E /* WJBaseComponent.h in Headers */,
+				D83DACDB9BF5B26DFE24A7ED83B38340 /* WJBaseViewController.h in Headers */,
+				20AC6169DE783E75F308BD004DB3168C /* WJNavigationViewController.h in Headers */,
+				3E6C71F0A33715A49B108C93E4BAC193 /* WJTabBarController.h in Headers */,
+				25891108DC217EA79A8FB052517AAFA6 /* WJUserDefaults.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517489CAA7FD2D683445D7160803C9E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A2BDBD0EF13E7CD58D67645B3C5538 /* Target_Standard.h in Headers */,
+				5CFF233F27A7D75416F0FE22B422794B /* WJHomeModule-umbrella.h in Headers */,
+				E5B10915CD73850848E31B680C9C9ECD /* WJHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011D51625654FE77697D979EF149D05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C36A8B8F38B2CD4E871BC5AA46130E1 /* SVIndefiniteAnimatedView.h in Headers */,
+				3B84D8D69F9AC638422DAD2235AB569C /* SVProgressAnimatedView.h in Headers */,
+				F752557906E0F529F95490E81E0611B3 /* SVProgressHUD-umbrella.h in Headers */,
+				B31B0B0AA0B7AECB7515D106DD6DF907 /* SVProgressHUD.h in Headers */,
+				B3EAFBD8F24D4F2FA15F49467D7B9D21 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49953A0BCD94F8270072DD3CC134C7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ED90F0AEE4F178BC00024B75B31C4B /* CTMediator+Standard.h in Headers */,
+				400B83C7494B6F7EBF5BE9F98FC7F63A /* WJStandard_Category-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A92217F0B483B77555EA20FEBB2970 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2368E96188C0B4EEB9B92B00CD2F4F23 /* Pods-WJComponentProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */,
+				DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */,
+				1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = A598D54DCC8089417757A2A65A2645FA /* FDFullscreenPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20A0054EA3535F57052B6464B7D82072 /* WJBaseComponent-WJBaseComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C0CBFDED5173A3D2B617B0A8B9241 /* Build configuration list for PBXNativeTarget "WJBaseComponent-WJBaseComponent" */;
+			buildPhases = (
+				0982A1703B2AD423B137C1C6B67780C8 /* Sources */,
+				B8DB7C27AAB03E657C41AE810D9B7457 /* Frameworks */,
+				A862A3159B747F277955BC0E88CD56DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJBaseComponent-WJBaseComponent";
+			productName = "WJBaseComponent-WJBaseComponent";
+			productReference = 249C2DDB36B5EABAFBFF2873DBB70FF7 /* WJBaseComponent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		49DA405C3B4F19DB6F20B2407A0D328B /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB2C48B699E498CE3D349E16D2CE056 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				6545528A48CA41374CEFCE3C4375BFC4 /* Sources */,
+				D812A7ADCFD445FCBFFE7DED368DA884 /* Frameworks */,
+				B011D51625654FE77697D979EF149D05 /* Headers */,
+				E52007133E715D0440FB666944B4CEF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 9CA9B76894988BE55CB7F0F0F075667E /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				2822373935C0BFF2631FD177CE33A87B /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 65EE1E7F617B38DBD044892C162069B0 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		730EA4279BD6C650B8F55ED844ACBA51 /* Pods-WJComponentProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC68A755220CA5DE3522F2B349F95B6A /* Build configuration list for PBXNativeTarget "Pods-WJComponentProject" */;
+			buildPhases = (
+				BFE88E518B933ADA2B294B516AA8FA67 /* Sources */,
+				1099C4DAF86D14B3E41B175A55515A10 /* Frameworks */,
+				D8A92217F0B483B77555EA20FEBB2970 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79885393BE8B7A61AFBB8E97BAF4FF53 /* PBXTargetDependency */,
+				B585AEBDBF3EB5EC71FE2852A26F0E3A /* PBXTargetDependency */,
+				C76507F543DF465823B35431C6A7BB95 /* PBXTargetDependency */,
+				597CDC6A4DE17DE70B61DBDAF7FF4CFE /* PBXTargetDependency */,
+				F1C725B0FB27F6D5BAB888AEBB9F4B2F /* PBXTargetDependency */,
+				A68A16E7B74B8A7B5EC326FF6B04CAC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJComponentProject";
+			productName = "Pods-WJComponentProject";
+			productReference = 7B304315F370168462F4E2BE98D9028B /* Pods_WJComponentProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96DCC5A8CC781465E77B3B0F2837A253 /* WJHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A78EDC1F2E863A8D5A99FBD037B944 /* Build configuration list for PBXNativeTarget "WJHomeModule" */;
+			buildPhases = (
+				0EF4034DEF72E5542EED6BF33B606396 /* Sources */,
+				8D1A526F943B28FFF6623007F280F855 /* Frameworks */,
+				517489CAA7FD2D683445D7160803C9E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A80A677401A5F57D0355F8E943C0FDE /* PBXTargetDependency */,
+				909C169F5E63FB294E9353C40E4B77D2 /* PBXTargetDependency */,
+			);
+			name = WJHomeModule;
+			productName = WJHomeModule;
+			productReference = 0F60B36DE2BF37BA040900A8D977088F /* WJHomeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABAE2D82CFE9942D51D63689A680705A /* WJBaseComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0FCB1A5CEB4F068A5F31033AFBBAC8 /* Build configuration list for PBXNativeTarget "WJBaseComponent" */;
+			buildPhases = (
+				73799D053D5F7678D910589EDBD6417F /* Sources */,
+				B285B471DF6EFB9F4079EF89DF1D09FC /* Frameworks */,
+				CE5112E7EDA3722AE271CB4F225917BC /* Resources */,
+				37C15DEDA8E5A0119BB08319AA407B9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4C3B2A70B605E8CC96F3B48BDF54EF /* PBXTargetDependency */,
+				C050E06867BCE4C8646AC071C8EECA81 /* PBXTargetDependency */,
+				F1F886628108041E5013D390BA960B0A /* PBXTargetDependency */,
+			);
+			name = WJBaseComponent;
+			productName = WJBaseComponent;
+			productReference = 60C3E47A3A96999B1B9299574851008D /* WJBaseComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEB3F494A15212E93578870E7CED0571 /* WJStandard_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A5A3325A28F589D5CCFE3DE31811FC /* Build configuration list for PBXNativeTarget "WJStandard_Category" */;
+			buildPhases = (
+				29C2F1CE4B5E8C2E33215576E79BEEF9 /* Sources */,
+				C66AB5494BB7F28B2D290C2A95EFCF16 /* Frameworks */,
+				C49953A0BCD94F8270072DD3CC134C7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B2C76541FC0A4447963EDA1895FC2E /* PBXTargetDependency */,
+			);
+			name = WJStandard_Category;
+			productName = WJStandard_Category;
+			productReference = 7CD5FBE176F4BDE8265F9781D7C6A39F /* WJStandard_Category.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 47DF6757F837C74B9C021A5659DBB5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */,
+				730EA4279BD6C650B8F55ED844ACBA51 /* Pods-WJComponentProject */,
+				49DA405C3B4F19DB6F20B2407A0D328B /* SVProgressHUD */,
+				ABAE2D82CFE9942D51D63689A680705A /* WJBaseComponent */,
+				20A0054EA3535F57052B6464B7D82072 /* WJBaseComponent-WJBaseComponent */,
+				96DCC5A8CC781465E77B3B0F2837A253 /* WJHomeModule */,
+				EEB3F494A15212E93578870E7CED0571 /* WJStandard_Category */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A862A3159B747F277955BC0E88CD56DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43DE0A4921A4E82B3FAD577D00485FD /* checkUserType_backward_9x15_@2x.png in Resources */,
+				353D3EA5BB4FD03CBE89FAF2C149C92D /* checkUserType_backward_9x15_@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5112E7EDA3722AE271CB4F225917BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2FFF563DE6622999C56873E933B4C0 /* WJBaseComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52007133E715D0440FB666944B4CEF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F9B8C69534C6BAE73CB5B625A86258 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0982A1703B2AD423B137C1C6B67780C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EF4034DEF72E5542EED6BF33B606396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE778A5E9F69C32AF528063D1B5222BF /* Target_Standard.m in Sources */,
+				8C73E039FC924B5F6713BD4D810169BD /* WJHomeModule-dummy.m in Sources */,
+				99A7E381874094AC5EC34F0AE3E5DBF4 /* WJHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2822373935C0BFF2631FD177CE33A87B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */,
+				EC9D5FBF65DB8BCB5B615CBD9A28DB8B /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C2F1CE4B5E8C2E33215576E79BEEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1413C7170CFE8A59DE298B564E65A2FE /* CTMediator+Standard.m in Sources */,
+				C8FF8E1F11FE66C324264AC69C4BAB9B /* WJStandard_Category-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6545528A48CA41374CEFCE3C4375BFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220D3449359584062A9274434DBF21D1 /* SVIndefiniteAnimatedView.m in Sources */,
+				71F97559E77D27FD9AF16CF60B8B1249 /* SVProgressAnimatedView.m in Sources */,
+				4942B4EA77FAE6B7C22A06B9392B9602 /* SVProgressHUD-dummy.m in Sources */,
+				9A72E4707DFCD749F73BFB142E942ADA /* SVProgressHUD.m in Sources */,
+				74E45D8419858A3F6B103C7A9AF2C8D3 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73799D053D5F7678D910589EDBD6417F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F322B9AA316FCBE59BD46FC958F23AF5 /* NSData+Extensions.m in Sources */,
+				BDBA6E75EFF1A94A413D9F2BB4D93CD8 /* NSDate+Extensions.m in Sources */,
+				9D5877BEC4349977350031EB367478D4 /* NSJSONSerialization+JSON.m in Sources */,
+				CEED867D6A36D99ACF0ADAD77E619601 /* NSObject+Dictionary.m in Sources */,
+				F4DF41CD13224EDF50E432FD5B8EFCBD /* NSObject+Guard.m in Sources */,
+				8057ACDFFD7E72EA74AD343E38770408 /* NSObject+ReplaceNullProperty.m in Sources */,
+				4E7337807C3197F2AEC580AA804FF221 /* NSTimer+Addition.m in Sources */,
+				06F332DA8069949357458ABC0FAA1595 /* UIImage+Extensions.m in Sources */,
+				84E40999289B3E6E1DEFE7777C20C79B /* UIView+Frame.m in Sources */,
+				392AB27B1DF18F52FC6118BC94577BB5 /* UIViewController+RunDealloc.m in Sources */,
+				C3E1AEA2AE79F9A922A419861CAB533B /* WJBaseComponent-dummy.m in Sources */,
+				D5FB06790B7FC4A6CD12F0C98C2A1B79 /* WJBaseViewController.m in Sources */,
+				E1C429D921CE124C1882B6847B6ADE94 /* WJNavigationViewController.m in Sources */,
+				A142D36B704C6469F3D24417D41EF3C2 /* WJTabBarController.m in Sources */,
+				69532FAD1983657D5DED78CFDF66CB78 /* WJUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE88E518B933ADA2B294B516AA8FA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B13217791CAABFBB8549F726FA8E5 /* Pods-WJComponentProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */,
+				B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4C3B2A70B605E8CC96F3B48BDF54EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = 47A612D1B3D573E93BF19E41EBC28FE2 /* PBXContainerItemProxy */;
+		};
+		597CDC6A4DE17DE70B61DBDAF7FF4CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJBaseComponent;
+			target = ABAE2D82CFE9942D51D63689A680705A /* WJBaseComponent */;
+			targetProxy = 70FAC1712003A08A69F56B43AC939760 /* PBXContainerItemProxy */;
+		};
+		6A80A677401A5F57D0355F8E943C0FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 7E5D3C2298008DB0B81B4FA2AA2C6377 /* PBXContainerItemProxy */;
+		};
+		79885393BE8B7A61AFBB8E97BAF4FF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 0464F229295B47BCA11F22F34BF89B96 /* PBXContainerItemProxy */;
+		};
+		909C169F5E63FB294E9353C40E4B77D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJBaseComponent;
+			target = ABAE2D82CFE9942D51D63689A680705A /* WJBaseComponent */;
+			targetProxy = C321D3222C3C289672CF772980130237 /* PBXContainerItemProxy */;
+		};
+		96B2C76541FC0A4447963EDA1895FC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 760880AAD832D26F69AD93DFB2766C24 /* PBXContainerItemProxy */;
+		};
+		A68A16E7B74B8A7B5EC326FF6B04CAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJStandard_Category;
+			target = EEB3F494A15212E93578870E7CED0571 /* WJStandard_Category */;
+			targetProxy = 40A8CC5717DF5F1F60BC0B16F7DDCE63 /* PBXContainerItemProxy */;
+		};
+		B585AEBDBF3EB5EC71FE2852A26F0E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = 54ABEBE6ED5E77FB9E18DE3EB42B8245 /* PBXContainerItemProxy */;
+		};
+		C050E06867BCE4C8646AC071C8EECA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 49DA405C3B4F19DB6F20B2407A0D328B /* SVProgressHUD */;
+			targetProxy = 0DB9908F671892AB74CD60FC70872993 /* PBXContainerItemProxy */;
+		};
+		C76507F543DF465823B35431C6A7BB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 49DA405C3B4F19DB6F20B2407A0D328B /* SVProgressHUD */;
+			targetProxy = C6BD3A05F3C3CEF0E6D7FB31674A790A /* PBXContainerItemProxy */;
+		};
+		F1C725B0FB27F6D5BAB888AEBB9F4B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJHomeModule;
+			target = 96DCC5A8CC781465E77B3B0F2837A253 /* WJHomeModule */;
+			targetProxy = D51180CD2DB20199B4B8B48E8F75F3EB /* PBXContainerItemProxy */;
+		};
+		F1F886628108041E5013D390BA960B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WJBaseComponent-WJBaseComponent";
+			target = 20A0054EA3535F57052B6464B7D82072 /* WJBaseComponent-WJBaseComponent */;
+			targetProxy = 2A7769670D18DECFC118CFA215478E3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		07FA823CCE0CF44A39A5C2301C4C1609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDB0C487729F2F07B889C48610462F2 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1794F936117A41012AFB45A620E9EA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDB0C487729F2F07B889C48610462F2 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18926B7E54CDE0E282CE5BC8C4AA30BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490AA987DBC7C3057A4F04970921A91C /* Pods-WJComponentProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJComponentProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJComponentProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29B3281144DDC7F5EE04E7D549DE9D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDDA78A453525DE46F06FDCEBC76133 /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DD2B9EA0F8A4D16ED70CA3078A46272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJBaseComponent/WJBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJBaseComponent/WJBaseComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D0ECFC28FC2B74FC4625F308E48A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F280C183BA5E6CAF984F22D33BEFD8 /* Pods-WJComponentProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJComponentProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJComponentProject/Pods-WJComponentProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJComponentProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A5B337AAB681F455902B871D9F74421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJBaseComponent";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/ResourceBundle-WJBaseComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WJBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		886D1791B51556459D06C332C927ECF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B6D5D76BE23FC6F6326A74B867ECD3 /* CTMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89EDABD868AAAB42227874A15B6D5D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDDA78A453525DE46F06FDCEBC76133 /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94C215181095435B0184492E859DCE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EBA86A40F86CA4361F5A49768A4D23 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A52607893C3891F52C78EBC7CB3BC0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC081528ED6883281265350836449E2C /* WJStandard_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJStandard_Category/WJStandard_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJStandard_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJStandard_Category/WJStandard_Category.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJStandard_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A664FD1AAA742EC80E1DB06A379020B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJBaseComponent";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/ResourceBundle-WJBaseComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WJBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E7BFB9131708297CF9515FEC1F05FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC081528ED6883281265350836449E2C /* WJStandard_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJStandard_Category/WJStandard_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJStandard_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJStandard_Category/WJStandard_Category.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJStandard_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F120539EBFE736A95FE36438B80D2F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B6D5D76BE23FC6F6326A74B867ECD3 /* CTMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB00DBD11826D293BBCAE6231D780454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F05BB25577AFF19C5A3C86B2C8C0F /* WJBaseComponent.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJBaseComponent/WJBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJBaseComponent/WJBaseComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFCBFE04588BE9B75536756828B3CFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EBA86A40F86CA4361F5A49768A4D23 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A78EDC1F2E863A8D5A99FBD037B944 /* Build configuration list for PBXNativeTarget "WJHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B3281144DDC7F5EE04E7D549DE9D4A /* Debug */,
+				89EDABD868AAAB42227874A15B6D5D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230C0CBFDED5173A3D2B617B0A8B9241 /* Build configuration list for PBXNativeTarget "WJBaseComponent-WJBaseComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A664FD1AAA742EC80E1DB06A379020B3 /* Debug */,
+				7A5B337AAB681F455902B871D9F74421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794F936117A41012AFB45A620E9EA79 /* Debug */,
+				07FA823CCE0CF44A39A5C2301C4C1609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB2C48B699E498CE3D349E16D2CE056 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBFE04588BE9B75536756828B3CFDC /* Debug */,
+				94C215181095435B0184492E859DCE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F120539EBFE736A95FE36438B80D2F0C /* Debug */,
+				886D1791B51556459D06C332C927ECF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A5A3325A28F589D5CCFE3DE31811FC /* Build configuration list for PBXNativeTarget "WJStandard_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52607893C3891F52C78EBC7CB3BC0C7 /* Debug */,
+				E7BFB9131708297CF9515FEC1F05FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC68A755220CA5DE3522F2B349F95B6A /* Build configuration list for PBXNativeTarget "Pods-WJComponentProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D0ECFC28FC2B74FC4625F308E48A3D /* Debug */,
+				18926B7E54CDE0E282CE5BC8C4AA30BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0FCB1A5CEB4F068A5F31033AFBBAC8 /* Build configuration list for PBXNativeTarget "WJBaseComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2B9EA0F8A4D16ED70CA3078A46272 /* Debug */,
+				FB00DBD11826D293BBCAE6231D780454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
