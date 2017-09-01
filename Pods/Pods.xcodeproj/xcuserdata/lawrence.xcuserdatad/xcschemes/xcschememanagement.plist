@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CTMediator.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -44,20 +49,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YYModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>03655755A8B994A47A6EB9B0198DC96D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0F71FC248875B67F53494C44B17B40EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>20A0054EA3535F57052B6464B7D82072</key>
+		<key>294CA5431E73281E23D54E77B07AC0B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>49DA405C3B4F19DB6F20B2407A0D328B</key>
+		<key>38F371F79C275342022395E3D0938B40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F08B245114D71B0B2E4A358E2C7EA0C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55091553AE602644664648615CF49839</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,22 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>730EA4279BD6C650B8F55ED844ACBA51</key>
+		<key>8BD4AF577BDA3151D43D695BD86C7ABC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96DCC5A8CC781465E77B3B0F2837A253</key>
+		<key>ABE5A54B6041A9BBD31F07650649371E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ABAE2D82CFE9942D51D63689A680705A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEB3F494A15212E93578870E7CED0571</key>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

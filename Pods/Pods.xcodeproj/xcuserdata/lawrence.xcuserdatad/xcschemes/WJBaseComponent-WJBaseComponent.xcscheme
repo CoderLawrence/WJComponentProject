@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '20A0054EA3535F57052B6464B7D82072'
+               BlueprintIdentifier = '294CA5431E73281E23D54E77B07AC0B5'
                BlueprintName = 'WJBaseComponent-WJBaseComponent'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'WJBaseComponent.bundle'>
